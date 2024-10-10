@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import "header.css";
-@import "main.css";
+@import "mainIndex.css";
+@import "mainCurriculo.css";
+@import "footer.css";
 
 *{
     margin: 0;
@@ -11,14 +13,26 @@
 
     /* variavel */
     --textoPrincipal:#000;
-    --textoSecundario:#444;
+    --textoSecundario:#FFF;
+    --textoTerciario:#555;
 
     --backgroundPrimaria:#FFF;
     --backgroundSecundaria:#000;
-}
+    --backgroundTerciario:#555;
 
+    /* fontes */
+    --fontTitulo:"Bebas Neue", sans-serif;
+    --fontPrimaria: "Roboto Condensed", sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     height: 100vh;
     background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

@@ -1,6 +1,5 @@
 
 .container{
-    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +22,7 @@
 }
 .indroducao-main p ,
 .indroducao-main h2 {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: var(--fontPrimaria);
     padding: 10px 0;
 }
 
@@ -44,11 +43,11 @@
     .container{
         width: 100%;
         margin-top: 10px;
-        align-items: baseline;
+        align-items: center;
     }
 
     .container-main{
-        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
         margin: 20px;  
         padding: 0; 
     }
@@ -59,7 +58,7 @@
     .container{
         width: 100%;
         margin-top: 0;
-        align-items: baseline;
+        /* align-items: baseline; */
     }
 
 }
