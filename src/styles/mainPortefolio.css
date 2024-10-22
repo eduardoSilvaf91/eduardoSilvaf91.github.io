@@ -9,13 +9,13 @@
     margin: 0 140px;
     /* background-color: chartreuse; */
     font-family: var(--fontPrimaria);
+    font-size: clamp(14px, 2vh, 20px);
 }
 
 .container-projetos{
     /* background-color: brown; */
     padding: 50px 0;
-
-    
+    width: 100%;
 }
 
 .container-projetos p{
