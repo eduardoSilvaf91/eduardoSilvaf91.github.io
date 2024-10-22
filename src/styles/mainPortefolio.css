@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
-    margin: 0 140px;
+    margin: 0 190px;
     /* background-color: chartreuse; */
     font-family: var(--fontPrimaria);
     font-size: clamp(14px, 2vh, 20px);
