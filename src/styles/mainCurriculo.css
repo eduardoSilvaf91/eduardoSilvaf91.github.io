@@ -55,6 +55,26 @@
     margin-left: 0;
 }
 
+.download{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.download button{
+    background-color: var(--button);
+    color: var(--textoSecundario);
+    font-family: var(--fontPrimaria);
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.download button:hover{
+    background-color: var(--buttonPress);
+}
 
 
 @media screen and (max-width: 1100px){
